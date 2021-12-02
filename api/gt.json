@@ -1,0 +1,64 @@
+{
+  "id": 1,
+  "titleGt": "Same History",
+  "txt": "> asdadsasdad.↵> Jemimasd adsadasdsdasd hjkdaks iasudioauoidisaoduasn.↵> jaksjdkasdasd.↵> dasdas. ↵> eh mesmo eh",
+
+  "createdAt": "",
+  "timeAgo": "Há 3h",
+  "userName": "Estatania",
+  "userPhoto": "",
+  "type": "gt",
+  "topCount": 64,
+  "shitCount": 3,
+  "commentsCount": 1,
+  "commentList": [
+    {
+      "userPhoto": "@/assets/users/borderline.png",
+      "username": "Borderline",
+      "msg": "kkkkkkkkkkkkkkkk",
+      "topCount": 64,
+      "shitCount": 3,
+      "timeAgo": "7m"
+    },
+    {
+      "userPhoto": "@/assets/users/creme.png",
+      "username": "Creme",
+      "msg": "God is a woman!! (its u)",
+      "topCount": 12,
+      "shitCount": 7,
+      "timeAgo": "31m"
+    },
+    {
+      "userPhoto": "@/assets/users/julio.png",
+      "username": "Julio",
+      "msg": "successfull",
+      "topCount": 26,
+      "shitCount": 5,
+      "timeAgo": "2h"
+    },
+    {
+      "userPhoto": "@/assets/users/amanda.png",
+      "username": "Amanda",
+      "msg": "What is so special?",
+      "topCount": 12,
+      "shitCount": 70,
+      "timeAgo": "1d"
+    },
+    {
+      "userPhoto": "@/assets/users/felix.png",
+      "username": "Félix",
+      "msg": "I think I'm crying. It's that magnificent.",
+      "topCount": 302,
+      "shitCount": 74,
+      "timeAgo": "1d"
+    },
+    {
+      "userPhoto": "@/assets/users/sweetener.png",
+      "username": "sweetener",
+      "msg": "10/10",
+      "topCount": 33,
+      "shitCount": 19,
+      "timeAgo": "1d"
+    }
+  ]
+}

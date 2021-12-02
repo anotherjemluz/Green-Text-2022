@@ -1,0 +1,20 @@
+/* BOTOES */
+
+@mixin bt-verde  {
+  background-color: transparent;
+  font-weight: bold;
+  border:  2px solid $verde;
+  color: $verde;
+  border-radius: 5px;
+  transition: all .5s ease;
+
+  font-size: 1.2em;
+  padding: 5px 20px;
+  margin-top: 10px;
+
+  &:hover {
+    color: $azul-marinho;
+    background-color: $verde;
+  }
+}
+
