@@ -1,0 +1,40 @@
+
+@import url("https://use.typekit.net/amo0ldj.css");
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: t26-carbon, monospace;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+body {
+  height: 100vh;
+  // background: linear-gradient(to bottom, $preto, $azul-marinho);
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.svg-inline--fa {
+  height: .8em;
+}
+
+h1, h2, h3, h4, h5, h6, p, a { font-weight: bold; }
