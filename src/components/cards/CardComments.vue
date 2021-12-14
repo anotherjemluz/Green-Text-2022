@@ -6,7 +6,7 @@
       <!-- v-if="index < 2" > -->
 
       <div class="userphoto-time">
-        <img :src="comment.userPhoto" alt="">
+        <img :src="userPhoto" alt="">
         <p> {{ comment.timeAgo }} </p>
       </div>
 
@@ -20,7 +20,7 @@
         <div class="reactions">
           <p class="top-vote" @click="comment.topCount++"> Top </p>
           <p class="shit-vote" @click="comment.shitCount++"> Shit </p>
-          <font-awesome-icon icon="reply">
+          <font-awesome-icon icon="reply"></font-awesome-icon>
         </div>
 
       </div>

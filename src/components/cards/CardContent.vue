@@ -32,7 +32,7 @@ export default {
       this.bodyJson.txt = this.bodyJson.txt.replace(/↵/g, "\n");
 
       // change color off all >
-      this.getAllMoreThanIndexes(this.bodyJson.txt, ">");
+      this.getAllMoreThanSymbolsIndexes(this.bodyJson.txt, ">");
       this.formatToHtml(this.moreThanIndexes, this.bodyJson.txt);
     },
     formatToHtml(arr, str) {
@@ -53,6 +53,7 @@ export default {
           // atribui o conteudo das tags span e p
           span = str.slice(start, start + 2);
           p = str.slice(start + 2, arr[end]);
+
         } else if (end > 0) {
           // pega a posição end anterior para definir como ponto de partida
           // e pega a posição final do intervalo
@@ -60,8 +61,11 @@ export default {
           end++;
 
           // atribui o conteudo das tags span e p
-          span = str.slice(arr[start], arr[start] + 2);
-          p = str.slice(arr[start] + 2, arr[end]);
+          let beforeSpan = arr[start] + 2;
+          let afterSpan = arr[start] + 2;
+
+          span = str.slice(beforeSpan, afterSpan);
+          p = str.slice(afterSpan, arr[end]);
         }
 
         // guarda no array
@@ -71,13 +75,12 @@ export default {
         }
       }
     },
-    getAllMoreThanIndexes(str, val) {
+    getAllMoreThanSymbolsIndexes(str, val) {
       let i = -1;
       while ((i = str.indexOf(val, i + 1)) != -1) {
         this.moreThanIndexes.push(i);
       }
     },
-
     insertGtMask() {
       let textarea = document.getElementById("gt-txt");
       textarea.setRangeText(

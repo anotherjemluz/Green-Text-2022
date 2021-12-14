@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from 'vue-router'
 
 import LoginCadastro from "@/components/LoginCadastro.vue";
 import Painel from "@/components/Painel.vue";
+import GT from "@/components/GT.vue";
 
 Vue.use(VueRouter)
 
@@ -16,6 +17,11 @@ const routes: Array<RouteConfig> = [
     path: '/painel',
     name: 'painel',
     component: Painel
+  },
+  {
+    path: '/gt',
+    name: 'gt-example',
+    component: GT
   },
 ]
 

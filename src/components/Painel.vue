@@ -40,7 +40,7 @@ export default {
   } // DESKTOP
 
   @media only screen and (min-width: 901px) and (max-width: 2499px) {
-    background-image: require("@/assets/bg/bg-desk.png");
+    background-image: url("../assets/bg/bg-desk.png");
   } // DESKTOP
 }
 </style>

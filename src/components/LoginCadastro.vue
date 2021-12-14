@@ -112,10 +112,7 @@ export default {
 </script>
 
 <style scoped lang="scss" >
-@import "../styles/variables";
-@import "../styles/backgrounds";
-@import "../styles/inputs";
-@import "../styles/buttons";
+@import "../styles/styles";
 
 #login_cadastro {
   @include black-bg;
@@ -136,6 +133,7 @@ export default {
 
   .bt-entrar, .bt-criar  {
     @include bt-verde;
+    width: 186px;
   }
 
   .pergunta {
